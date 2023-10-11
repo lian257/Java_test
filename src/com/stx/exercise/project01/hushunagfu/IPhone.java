@@ -9,7 +9,7 @@ package com.stx.exercise.project01.hushunagfu;
  */
 public class IPhone extends Phone{
     public IPhone() {
-        this.setBrand("苹果");
+        super.setBrand("苹果");
     }
 
     @Override

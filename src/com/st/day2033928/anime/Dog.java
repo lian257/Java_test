@@ -13,6 +13,9 @@ public class Dog extends Animal{
         System.out.println("U*.*U");
     }
 
+
+
+
     /**
      * 特有方法
      */

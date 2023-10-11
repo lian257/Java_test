@@ -9,7 +9,7 @@ package com.stx.exercise.project01.hushunagfu;
  */
 public class PhoneDemo {
     public static void main(String[] args) {
-        Phone[] phones = new Phone[100];
+        Phone[] phones = new Phone[2];
         PhoneManager phoneManager = new PhoneManager();
         phoneManager.setPhone(phones);
         phoneManager.start();

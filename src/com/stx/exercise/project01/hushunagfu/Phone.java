@@ -14,11 +14,7 @@ public abstract class Phone {
     private String color;
     private double price;
     private String chip;
-    private int index;
 
-    /**
-     *  该方法根据手机种类不同返回不同的字符串
-     */
     public abstract String callMode();
 
     public Phone() {
@@ -26,7 +22,7 @@ public abstract class Phone {
 
     public Phone(String phoneNo,String brand,
                  String version, String color,
-                 double price, String chip,int index) {
+                 double price, String chip) {
         this.phoneNo = phoneNo;
         this.brand = brand;
         this.version = version;
@@ -83,11 +79,4 @@ public abstract class Phone {
         this.chip = chip;
     }
 
-    public int getIndex() {
-        return index;
-    }
-
-    public void setIndex(int index) {
-        this.index = index;
-    }
 }

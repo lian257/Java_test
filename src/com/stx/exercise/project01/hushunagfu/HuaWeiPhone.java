@@ -9,7 +9,7 @@ package com.stx.exercise.project01.hushunagfu;
  */
 public class HuaWeiPhone extends Phone{
     public HuaWeiPhone() {
-        this.setBrand("华为");
+        super.setBrand("华为");
     }
 
     @Override

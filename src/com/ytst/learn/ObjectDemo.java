@@ -10,9 +10,11 @@ package com.ytst.learn;
 public class ObjectDemo {
     public static void main(String[] args) {
 
+
         Object object = new Dog();
         Dog dog = new Dog();
         Dog dog2 = new Dog();
+
 
 
     }
